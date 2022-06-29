@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Customer\Model\Data\Customer">
+        <plugin name="model_customer" type="Aswanth\Assignment1\Plugin\Model\Customer" sortOrder="1" disabled="false" />
+    </type>
+    <preference for="Magento\Customer\Model\Data\Customer" type="Aswanth\Assignment1\Model\Data\Customer" />
+</config>
