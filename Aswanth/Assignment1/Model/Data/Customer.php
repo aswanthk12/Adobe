@@ -6,9 +6,9 @@ use Magento\Customer\Api\CustomerMetadataInterface;
 use Magento\Framework\Api\AttributeValueFactory;
 use Magento\Framework\Api\ExtensionAttributesFactory;
 use Magento\Framework\Stdlib\DateTime\DateTime;
-use Magento\Customer\Model\Data\Customer as CustomerCore;
+use Magento\Customer\Model\Data\Customer as BaseCustomer;
 
-class Customer extends CustomerCore
+class Customer extends BaseCustomer
 {
     /**
      * @var DateTime $dateTime
