@@ -1,6 +1,6 @@
 <?php
 
-namespace Aswanth\Assignment1\Model\Data;
+namespace Aswanth\Assignment1\Model\Data; 
 
 use Magento\Customer\Api\CustomerMetadataInterface;
 use Magento\Framework\Api\AttributeValueFactory;
@@ -48,7 +48,7 @@ class Customer extends BaseCustomer
      *
      * @return int
      */
-    public function CalculateAge(): int
+    public function calculateAge(): int
     {
         $dob=$this->getDob();
         $now = time();
