@@ -1,0 +1,13 @@
+{
+    "personal_info": {
+        "column": {
+            "ID": true,
+            "Name": true,
+            "DOB": true,
+            "Address": true,
+            "Blood Group": true,
+            "Email": true,
+            "Phone no": true
+        }
+    }
+}
