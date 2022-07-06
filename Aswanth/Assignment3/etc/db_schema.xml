@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="personal_info" resource="default" engine="innodb" comment="">
+        <column xsi:type="int" name="id" unsigned="true" nullable="false" identity="false"/>
+        <column xsi:type="varchar" name="name" nullable="false"/>
+        <column xsi:type="date" name="dob" nullable="false"/>
+        <column xsi:type="varchar" name="address" nullable="false"/>
+        <column xsi:type="varchar" name="blood_group" nullable="false"/>
+        <column xsi:type="varchar" name="email" nullable="false"/>
+        <column xsi:type="int" name="phone_no" unsigned="true" nullable="false" identity="false"/>
+    </table>
+</schema>
