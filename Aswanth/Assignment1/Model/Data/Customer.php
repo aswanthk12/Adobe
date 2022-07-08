@@ -1,6 +1,6 @@
 <?php
 
-namespace Aswanth\Assignment1\Model\Data; 
+namespace Aswanth\Assignment1\Model\Data;
 
 use Magento\Customer\Api\CustomerMetadataInterface;
 use Magento\Framework\Api\AttributeValueFactory;
