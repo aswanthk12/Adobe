@@ -3,4 +3,6 @@
         xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
     <preference for="Aswanth\Assignment3\Api\PersonalInfoRepositoryInterface"
                 type="Aswanth\Assignment3\Model\PersonalInfoRepository"/>
+    <preference for="Aswanth\Assignment3\Api\Data\PersonalInfoInterface"
+                type="Aswanth\Assignment3\Model\PersonalInfo"/>
 </config>
