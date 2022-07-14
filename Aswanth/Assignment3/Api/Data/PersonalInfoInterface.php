@@ -2,7 +2,9 @@
 
 namespace Aswanth\Assignment3\Api\Data;
 
-interface PersonalInfoInterface
+use Magento\Framework\Api\ExtensibleDataInterface;
+
+interface PersonalInfoInterface extends ExtensibleDataInterface
 {
     /**
      * @return int
@@ -75,12 +77,27 @@ interface PersonalInfoInterface
      * @return int
      */
 
-    public function getPhoneNo();
+    public function getPhone();
 
     /**
      * @param string $phoneNo
      * @return int
      */
     public function setPhone(string $phoneNo);
+
+    /**
+     * Retrieve existing extension attributes object or create a new one.
+     *
+     * @return \Aswanth\Assignment3\Api\Data\PersonalInfoExtensionInterface|null
+     */
+    public function getExtensionAttributes();
+
+    /**
+     * Set an extension attributes object.
+     *
+     * @param \Aswanth\Assignment3\Api\Data\PersonalInfoExtensionInterface $extensionAttributes
+     * @return $this
+     */
+    public function setExtensionAttributes(\Aswanth\Assignment3\Api\Data\PersonalInfoExtensionInterface $extensionAttributes);
 
 }
